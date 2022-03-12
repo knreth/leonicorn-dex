@@ -1,0 +1,17 @@
+{
+  "name": "leon-staking",
+  "version": "0.0.1",
+  "description": "LEON Staking Contracts",
+  "main": "",
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy:dev": "truffle migrate --network development"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.4.1",
+    "truffle": "^5.4.3",
+    "@truffle/hdwallet-provider": "^2.0.3"
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "name": "leonicorn-farming",
+  "name": "leonicorn-lottery",
   "version": "0.0.1",
-  "description": "Leonicorn DEX Farms/Pools Contracts",
+  "description": "Leonicorn Lottery Contracts",
   "main": "",
   "scripts": {
     "compile": "truffle compile",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@openzeppelin/contracts": "^3.4.1",
+    "@openzeppelin/contracts": "^4.1.0",
     "truffle": "^5.4.3",
     "@truffle/hdwallet-provider": "^2.0.3"
   }

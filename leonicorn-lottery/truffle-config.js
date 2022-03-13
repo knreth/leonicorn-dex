@@ -20,8 +20,9 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const fs = require('fs');
 
+var mnemonic;
 try {
-   const mnemonic = fs.readFileSync(".secret").toString().trim();
+   mnemonic = fs.readFileSync(".secret").toString().trim();
 } catch(err) {
    console.log("WARNING: Cannot read .secret file, it is required for deploying to networks other than 'development'");
 }
